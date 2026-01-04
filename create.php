@@ -175,10 +175,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
                 <div style="padding: 15px 20px; font-size: 12px; color: #A0A0A0; border-bottom: 1px solid #FFF9F2;">
                     Živijo, <?= htmlspecialchars($_SESSION['user']['ime']) ?>!
                 </div>
-                <a href="profile.php">👤 Moj profil</a>
-                <a href="index.php">🏠 Domov</a>
-                <a href="statistika.php">📊 Analitika portala</a> 
-                <a href="logout.php" style="color: var(--primary-coral);">🚪 Odjava</a>
+                <a href="profile.php">Moj profil</a>
+                <a href="index.php">Domov</a>
+                <a href="statistika.php">Analitika portala</a> 
+                <a href="logout.php" style="color: var(--primary-coral);">Odjava</a>
             </div>
         </div>
     </div>
